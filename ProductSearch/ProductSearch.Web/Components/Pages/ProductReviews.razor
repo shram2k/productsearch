@@ -1,0 +1,75 @@
+﻿@page "/product"
+@rendermode InteractiveServer
+@using ProductSearch.Core;
+@inject ProductApiClient ProductService
+
+<h1>Product Search</h1>
+
+<div class="form-group">
+    <label for="productName">Enter product name:</label>
+    <input id="productName" class="form-control" @bind="ProductName" />
+</div>
+<div class="form-group">
+<button class="btn btn-primary" @onclick="SearchProducts">Search</button>
+</div>
+
+@if (ProductName == null)
+{
+    <p>Enter a product name and click Search.</p>
+}
+
+else if(Product != null)
+{
+    
+
+    <div class="container">
+        <div class="row">
+           
+            <div class="col-md-12">
+                <div><img src="@Product.ImageUrl" class="img-fluid" alt="Product image"></div>
+                <!-- Product name -->
+                <h1 class="product-name">@Product.Name</h1>
+                <!-- Product description -->
+                <p class="product-description">@Product.Description</p>
+                <!-- Product rating -->
+                <div class="product-rating">
+                    <span class="rating-stars">
+                        <!-- Use Font Awesome icons for the stars -->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </span>
+                    <span class="rating-count">(4.5 / 5) based on 123 reviews</span>
+                </div>
+                <!-- Product reviews -->
+                <div class="product-reviews">
+                    <h2 class="reviews-title">Reviews</h2>
+                    <ul class="list-group list-group-flush">
+                        @foreach (var review in @Product.Reviews)
+                        {
+                            <li class="list-group-item">@review</li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    public Product Product{ get; set; }
+    public string ProductName { get; set; }
+    // protected override async Task OnInitializedAsync()
+    // {
+    //     var product = await ProductService.GetProductsByNameAsync(ProductName);
+    // }
+
+    protected async Task<Product> SearchProducts()
+    {
+        Product = await ProductService.GetProductsByNameAsync(ProductName);
+        return Product;
+    }
+}
+

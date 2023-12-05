@@ -1,0 +1,12 @@
+D:\iCF\OneDrive - RLDatix\Aspire\ProductSearch\ProductSearch.ServiceDefaults\bin\Debug\net8.0\ProductSearch.ServiceDefaults.deps.json
+D:\iCF\OneDrive - RLDatix\Aspire\ProductSearch\ProductSearch.ServiceDefaults\bin\Debug\net8.0\ProductSearch.ServiceDefaults.dll
+D:\iCF\OneDrive - RLDatix\Aspire\ProductSearch\ProductSearch.ServiceDefaults\bin\Debug\net8.0\ProductSearch.ServiceDefaults.pdb
+D:\iCF\OneDrive - RLDatix\Aspire\ProductSearch\ProductSearch.ServiceDefaults\obj\Debug\net8.0\ProductSearch.ServiceDefaults.csproj.AssemblyReference.cache
+D:\iCF\OneDrive - RLDatix\Aspire\ProductSearch\ProductSearch.ServiceDefaults\obj\Debug\net8.0\ProductSearch.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+D:\iCF\OneDrive - RLDatix\Aspire\ProductSearch\ProductSearch.ServiceDefaults\obj\Debug\net8.0\ProductSearch.ServiceDefaults.AssemblyInfoInputs.cache
+D:\iCF\OneDrive - RLDatix\Aspire\ProductSearch\ProductSearch.ServiceDefaults\obj\Debug\net8.0\ProductSearch.ServiceDefaults.AssemblyInfo.cs
+D:\iCF\OneDrive - RLDatix\Aspire\ProductSearch\ProductSearch.ServiceDefaults\obj\Debug\net8.0\ProductSearch.ServiceDefaults.csproj.CoreCompileInputs.cache
+D:\iCF\OneDrive - RLDatix\Aspire\ProductSearch\ProductSearch.ServiceDefaults\obj\Debug\net8.0\ProductSearch.ServiceDefaults.dll
+D:\iCF\OneDrive - RLDatix\Aspire\ProductSearch\ProductSearch.ServiceDefaults\obj\Debug\net8.0\refint\ProductSearch.ServiceDefaults.dll
+D:\iCF\OneDrive - RLDatix\Aspire\ProductSearch\ProductSearch.ServiceDefaults\obj\Debug\net8.0\ProductSearch.ServiceDefaults.pdb
+D:\iCF\OneDrive - RLDatix\Aspire\ProductSearch\ProductSearch.ServiceDefaults\obj\Debug\net8.0\ref\ProductSearch.ServiceDefaults.dll

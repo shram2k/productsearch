@@ -1,0 +1,223 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\iCF\\OneDrive - RLDatix\\Aspire\\ProductSearch\\ProductSearch.ApiService\\ProductSearch.ApiService.csproj": {}
+  },
+  "projects": {
+    "D:\\iCF\\OneDrive - RLDatix\\Aspire\\ProductSearch\\ProductSearch.ApiService\\ProductSearch.ApiService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\iCF\\OneDrive - RLDatix\\Aspire\\ProductSearch\\ProductSearch.ApiService\\ProductSearch.ApiService.csproj",
+        "projectName": "ProductSearch.ApiService",
+        "projectPath": "D:\\iCF\\OneDrive - RLDatix\\Aspire\\ProductSearch\\ProductSearch.ApiService\\ProductSearch.ApiService.csproj",
+        "packagesPath": "C:\\Users\\rsharma\\.nuget\\packages\\",
+        "outputPath": "D:\\iCF\\OneDrive - RLDatix\\Aspire\\ProductSearch\\ProductSearch.ApiService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rsharma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\iCF\\OneDrive - RLDatix\\Aspire\\ProductSearch\\ProductSearch.Core\\ProductSearch.Core.csproj": {
+                "projectPath": "D:\\iCF\\OneDrive - RLDatix\\Aspire\\ProductSearch\\ProductSearch.Core\\ProductSearch.Core.csproj"
+              },
+              "D:\\iCF\\OneDrive - RLDatix\\Aspire\\ProductSearch\\ProductSearch.ServiceDefaults\\ProductSearch.ServiceDefaults.csproj": {
+                "projectPath": "D:\\iCF\\OneDrive - RLDatix\\Aspire\\ProductSearch\\ProductSearch.ServiceDefaults\\ProductSearch.ServiceDefaults.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\iCF\\OneDrive - RLDatix\\Aspire\\ProductSearch\\ProductSearch.Core\\ProductSearch.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\iCF\\OneDrive - RLDatix\\Aspire\\ProductSearch\\ProductSearch.Core\\ProductSearch.Core.csproj",
+        "projectName": "ProductSearch.Core",
+        "projectPath": "D:\\iCF\\OneDrive - RLDatix\\Aspire\\ProductSearch\\ProductSearch.Core\\ProductSearch.Core.csproj",
+        "packagesPath": "C:\\Users\\rsharma\\.nuget\\packages\\",
+        "outputPath": "D:\\iCF\\OneDrive - RLDatix\\Aspire\\ProductSearch\\ProductSearch.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rsharma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\iCF\\OneDrive - RLDatix\\Aspire\\ProductSearch\\ProductSearch.ServiceDefaults\\ProductSearch.ServiceDefaults.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\iCF\\OneDrive - RLDatix\\Aspire\\ProductSearch\\ProductSearch.ServiceDefaults\\ProductSearch.ServiceDefaults.csproj",
+        "projectName": "ProductSearch.ServiceDefaults",
+        "projectPath": "D:\\iCF\\OneDrive - RLDatix\\Aspire\\ProductSearch\\ProductSearch.ServiceDefaults\\ProductSearch.ServiceDefaults.csproj",
+        "packagesPath": "C:\\Users\\rsharma\\.nuget\\packages\\",
+        "outputPath": "D:\\iCF\\OneDrive - RLDatix\\Aspire\\ProductSearch\\ProductSearch.ServiceDefaults\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rsharma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Http.Resilience": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.ServiceDiscovery": {
+              "target": "Package",
+              "version": "[8.0.0-preview.1.23557.2, )"
+            },
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
+              "target": "Package",
+              "version": "[1.7.0-alpha.1, )"
+            },
+            "OpenTelemetry.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.7.0-alpha.1, )"
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.6.0-beta.2, )"
+            },
+            "OpenTelemetry.Instrumentation.GrpcNetClient": {
+              "target": "Package",
+              "version": "[1.6.0-beta.2, )"
+            },
+            "OpenTelemetry.Instrumentation.Http": {
+              "target": "Package",
+              "version": "[1.6.0-beta.2, )"
+            },
+            "OpenTelemetry.Instrumentation.Runtime": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
